@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://www.secrss.com/articles/12244 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>5G设备安全评测标准解读 - 安全内参 | 网络安全首席知识官</title>
+    <meta name="keywords" content="通信,标准,5G,企业安全,政务信息安全,国家安全,大数据安全,最佳安全实践,首席安全官,漏洞,病毒木马蠕虫,勒索软件,安全管理,安全参考,互联网安全内参,securityinsight">
+    <meta name="description" content="本文通过介绍GSMA在网络产品安全评估所做的工作以及3GPP制定的针对网络设备的安全保障系列标准，带领大家了解5G网络设备安全保障的标准化工作。">
+    <meta property="og:url" content="https://www.secrss.com/article/12244">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="5G设备安全评测标准解读">
+    <meta property="og:description" content="本文通过介绍GSMA在网络产品安全评估所做的工作以及3GPP制定的针对网络设备的安全保障系列标准，带领大家了解5G网络设备安全保障的标准化工作。">
+    <meta property="og:image" content="https://www.secrss.com/logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link id="icon" rel="apple-touch-icon" href="https://www.secrss.com/logo.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www.secrss.com/logo.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="https://www.secrss.com/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.secrss.com/logo.png">
+    <link rel="icon" id="favicon" href="https://www.secrss.com/logo.png" type="image/x-icon">
+    <link href="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/font-awesome.min.css" rel="stylesheet">
+    <link href="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/navbar-customed.css" rel="stylesheet">
+    <link href="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/common.css" rel="stylesheet">
+<link rel="stylesheet" href="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/layer.css" id="layuicss-layer"></head>
+<body>
+<header class="header">
+    <nav class="navbar navbar-customed navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.secrss.com/" title="首页">
+                    <div class="logo" style="width: 147px">
+                        <img src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/logo_lg.png" alt="logo" style="height: 40px;">
+                    </div>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="https://www.secrss.com/"><span>首页</span></a>
+                    </li>
+                                        <li class="dropdown">
+                                                <a href="https://www.secrss.com/articles?tag=%E4%BA%A7%E4%B8%9A%E8%B6%8B%E5%8A%BF"><span>产业趋势</span></a>
+                                                                    </li>
+                                        <li class="dropdown">
+                                                <a href="https://www.secrss.com/articles?tag=%E4%B8%93%E5%AE%B6%E8%A7%82%E5%AF%9F"><span>专家观察</span></a>
+                                                                    </li>
+                                        <li class="dropdown">
+                                                <a href="https://www.secrss.com/articles?tag=CISO%E6%B4%9E%E5%AF%9F"><span>CISO洞察</span></a>
+                                                                    </li>
+                                        <li class="dropdown">
+                                                <a href="https://www.secrss.com/articles?tag=%E5%86%B3%E7%AD%96%E7%A0%94%E7%A9%B6"><span>决策研究</span></a>
+                                                                    </li>
+                                    </ul>
+                <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="https://www.secrss.com/login">登录</a></li>
+                                        <li class="download-app"><a href="https://www.secrss.com/app"><span class="fa fa-mobile fa-2x"></span><span>APP下载</span></a>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right" action="https://www.secrss.com/search">
+                    <div class="form-group form-group-sm search-bar">
+                        <input name="keywords" type="text" class="form-control" placeholder="搜索" required="">
+                        <button class="btn btn-sm search-btn" type="submit"><span class="fa fa-search"></span></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+    <section class="container main-container" style="min-height: 646px;">
+        <div class="row article-row">
+            <article class="article">
+                <h1>
+                    5G设备安全评测标准解读
+                </h1>
+                <div class="info text-info">
+                    <div class="meta">
+                        <div class="meta-left">
+                            <input type="hidden" name="_token" value="7ocDKQEtkO2NxlE3X1jbDKm16aSZprH10bROdzka">
+                                                            <span class="tag"><a href="https://www.secrss.com/articles?tag=%E9%80%9A%E4%BF%A1" target="_blank">通信</a></span>
+                                                        <span class="author"><a target="_blank" style="color: #999" href="https://www.secrss.com/articles?author=%E7%A6%BE%E4%BA%91%E5%AE%89%E5%85%A8">禾云安全</a></span>
+                            <span class="time">2019-07-15</span>
+                        </div>
+                        <div class="meta-right">
+                                                            <a href="https://www.secrss.com/login" title="登录后才可以收藏，请先登录" style="padding-right: 10px"><i class="fa fa-heart-o" style="color: #bbb"></i></a>
+                                                    </div>
+                    </div>
+                </div>
+                                <div class="summary">
+                    本文通过介绍GSMA在网络产品安全评估所做的工作以及3GPP制定的针对网络设备的安全保障系列标准，带领大家了解5G网络设备安全保障的标准化工作。
+                </div>
+                                <div class="article-body">
+                    <p></p><p>国内的5G牌照已经在今年6月6日发放，5G的商用部署指日可待，5G网络的安全性受到了高度关注。对于电信运营商来说，在大规模部署和商用5G网络之前，确保其采购和使用的设备的安全性是至关重要的。对于5G的全球发展来说，需要对5G设备的安全性有可达成共识的手段支撑。对5G设备安全的评测需要有被广泛认知的标准。</p><p>本文通过介绍GSMA在网络产品安全评估所做的工作（NESAS）以及3GPP制定的针对网络设备的安全保障系列标准（SCAS），带领大家了解5G网络设备安全保障的标准化工作。</p><p><img src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/Cvmo8l0tKTGAKN9IAAAnUXerhPE714.jpg"></p><h4>1 电信网络设备安全评测的通用方法</h4><p>对电信运营商来说，<strong>了解和度量</strong>其所使用的网络设备的<strong>安全级别</strong>非常重要。电信网络设备作为IT信息产品，可借鉴IT系统的安全评估机制，以下是业界常用的可行方法。</p><p>方法1——审计评估：对厂商的开发过程和产品生命周期管理流程的安全进行资质认证（accreditation）;</p><p>方法2——测试评估：基于定义好的标准的安全测试，由可信的测试实验室对网络设备进行安全评估。</p><p><strong>方法</strong>1中，每个厂商可以定义自己的内部流程，这些流程规定了安全是如何集成到设计、开发、实现和维护过程中的。外部审计单位检查这些流程，从而评判厂商是否实际有效采用了这些措施。如果获得了审计单位的资质认证，则证明被审计的厂商生产的产品符合安全流程要求。在审计过程中，厂商只需向中立的审计单位提供其内部生产和管理流程文件和数据、无需对公众全面披露其内部运作细节。因此，此种方式的特点在于，基于公众对审计机构的中立性、客观性及权威性的认可，厂商在不对公众透露商业秘密的情况下，通过审计机构的背书，向公众证明了其生产和管理流程的安全性，提升公众对其产品和服务的信心。</p><p><strong>方法</strong>2是对实际的产品进行测试评估，通过测试来度量产品的安全等级。这种方法的前提是：有预定义的安全测试集；基于测试集对网络设备进行安全评估，其安全等级可以被测量并可见，评估报告可以展现给潜在的客户。由于移动通信产业非常重视标准，主要的网络设备的功能都有标准可遵循，因此也有利于进行安全测试与评估。</p><p>显然，方法1关注过程安全性、方法2关注结果（产品）安全性。通常，上述两种方法会同时采用。</p><h4>2 GSMA NESAS 介绍</h4><p>为了使各参与方、相关方对电信网络设备的安全性达成共识，推动电信网络设备制造与运营安全的良性发展，GSMA编制了一套称为网络设备安全保证体系（Network Equipment Security Assurance Scheme, NESAS）的指引性文档。NESAS的目标是通过制定业界认同的安全基线，为设备厂商和运营商提供安全保证的技术参考。对于设备供应商来说，NESAS将有助于降低由于各个国家和地区的管制要求差异以及运营商的需求差异所导致的安全需求的碎片化。对于运营商来说，NESAS提供了可行的衡量厂商是否落实安全要求的方法。</p><p>NESAS框架包括上文提到的审计评估和测试评估两种方法。针对方法1，NESAS制定了审计评估的系列文档；针对方法2，NESAS引用了3GPP制定的SCAS（SeCurity Assurance Specification）系列规范作为测试评估的要求。</p><p>NESAS框架的文档结构如图1。</p><p>注：NESAS的相关文档目前仍处于讨论修订中，预计将于今年下半年发布Release 1版本。本文的相关内容均参考了2019年5月份公布的Pilot版本。</p><p><img src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/Cvmo0l0tKTKAPIE7AABxRy7UcBk996.jpg"></p><p style="text-align: center;"><em>图1 NESAS文档族结构</em></p><p>NESAS定义的网络设备安全保障的流程如图2，可分为3个子流程：</p><p>（1）产品开发和生命周期管理流程的审计。依据FS.15和FS.16，由GSMA指定的独立的审计方实施，并输出审计报告。</p><p>（2）安全测试实验室的认证。依据FS.14制定的实验室认证流程和要求，GSMA对测试实验室进行认证，只有通过认证的测试实验室才能够对网络设备进行安全评估。</p><p>（3）网络设备安全评估。安全测试实验室依据3GPP SCAS规范对网络设备进行安全测试，同时基于厂商提供的材料和审计方出具的审计报告，对产品开发和生命周期管理流程是否真正应用到所测试的网络设备进行核实，最后向运营商输出网络设备的安全评估报告。</p><p><img src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/Cvmo8l0tKTKAA7JiAABhAqnzJV0629.jpg"></p><p style="text-align: center;"><em>图2 NESAS定义的产品安全评估流程</em></p><p><strong>2.1 产品开发和生命周期管理流程的审计评估</strong></p><p>一般来说，安全的产品在开发制造和投入使用的整个生命周期中都应集成安全的考虑和机制，GSMA可以指定一个独立的审计团队，来对这些过程进行审计。</p><p>FS.15 Network Equipment Security Assurance Scheme - Product Development and Lifecycle Accreditation Methodology<sup>[3]</sup>定义了对过程进行资质认证(accreditation)的方法论，描述了执行审计和认证的过程。</p><p>FS.16 Network Equipment Security Assurance Scheme -Vendor Development and Product Lifecycle Security Requirements<sup>[4]</sup>定义了厂商为了获得资质认证(accreditation)需要满足的安全要求，独立审计团队也是根据这些需求来对厂商进行评估的。</p><p>审计要求中，对资产、威胁、安全目标、安全要求等进行了定义。在目前的版本[2019年5月]中资产描述6项，威胁描述15项，安全目标14项，安全要求20项。</p><p>表1 厂商开发过程和产品生命周期的安全要求</p><p><img src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/Cvmo0l0tKTOAaSEXAAF0kC9rfnU079.jpg"></p><p>认证的流程如表2 ：</p><p>表2 NESAS审计流程</p><table width="568"><tbody><tr><td width="96"><p>启动</p></td><td width="472"><ul><li><p>厂商提供申请，与审计团队协商审计日期，与GSMA签订合同</p></li></ul></td></tr><tr><td width="96"><p>审计准备</p></td><td width="472"><ul><li><p>审计团队与厂商协商审计范围，制定议程（至少在审计开始前一星期确定）</p></li></ul></td></tr><tr><td width="96"><p>向审计团队提交文档</p></td><td width="472"><ul><li><p>厂商向审计团队提交文档</p></li><li><p>审计开始时，供应商和审计团队召开线上或者现场会议，供应商对其提交的信息进行总体介绍，审计团队可能会指明需要进一步澄清</p></li></ul></td></tr><tr><td width="96"><p>审计团队评审文档 - 第一轮</p></td><td width="472"><ul><li><p>审计团队评审厂商所提交的流程是否符合NESAS的要求。这个过程中审计团队可能会告诉厂商哪些文档缺失以及提供的信息所不能满足的要求</p></li></ul></td></tr><tr><td width="96"><p>中间审计结果会议</p></td><td width="472"><ul><li><p>审计团队通知厂商，还有些哪些要求未能满足</p></li><li><p>双方协商确定补充文档或修改文档的时间</p></li></ul></td></tr><tr><td width="96"><p>审计团队评审文档 - 第二轮</p></td><td width="472"><ul><li><p>审计团队评审提交的文档中的流程是否足以满足NESAS要求。这个过程中审计团队可能会告诉厂商哪些文档缺失以及提供的信息不足以满足哪些要求</p></li></ul></td></tr><tr><td width="96"><p>现场审计</p></td><td width="472"><ul><li><p>审计团队评估：（1）是否文档记录的流程被实际应用到供应商的日常业务中；（2）是否供应商有职员、技能、设备、工作实践和资源来遵循文档中记录的流程；（3）是否员工受到了充分的流程培训，是否员工理解流程。</p></li></ul></td></tr><tr><td width="96"><p>结果展示</p></td><td width="472"><ul><li><p>审计团队向厂商展示其发现，并输出审计报告，审计团队与供应商就审计报告和审计结果达成一致</p></li></ul></td></tr><tr><td width="96"><p>认证</p></td><td width="472"><ul><li><p>NESAS Accreditation Board接收审计报告，并决定是否授予认证。如果认证，则厂商获得Accreditation Certificate。如果厂商不反对，则该证书的副本将在GSMA网站上公开</p></li></ul></td></tr></tbody></table><p>这些要求是比较一般化的针对IT信息产品的通用的一些元素和要求，所以对通信网络产品来说是适用的，包括5G网络设备。但同时也由于其一般性，所以没有专门针对5G网络设备的安全要求。</p><p><strong>2.2 安全测试实验室认证</strong></p><p>测试评估是由GSMA所认证的安全测试实验室来承担的。安全测试实验室的认证要求和过程在GSMA的 FS. 14 - Network Equipment Security Assurance Scheme – Security Test Laboratory Accreditation Requirements and Process<sup>[2]</sup>中定义。安全测试实验室可以由厂商或者第三方所拥有，并根据3GPP定义的SCAS规范（参见本文第3章节）来进行安全测试。安全测试实验室的认证需要满足以下条件：</p><p>（1）经过ISO 17025认证。要成为认证实验室需要联络一个ILAC成员，来对其按照ISO 17025标准进行审计和认证。</p><p>（2）应具备执行SCAS中所定义的测试所需的相应的技能和工具。</p><p>在获得ISO 17025的资质认证之后，安全测试实验室需要通知NESAS认证董事会(NESAS Accreditation Board)，并向其提供ISO 17025认证的证书复印件，NESAS Accreditation Board 记录实验室的信息并向满足NESAS要求的实验室颁发认证证书（Accreditation Certificate）。</p><p>据调研，现在与GSMA合作的审计机构包括ATSEC、NCC Group，测试实验室目前仅一家：西班牙的Epoche（http://www.epoche.es）。</p><p>2.3 网络设备安全评估</p><p>通过GSMA认证的安全测试实验室依据3GPP SCAS规范对网络设备进行安全测试，同时基于厂商提供的材料和审计方出具的审计报告，对产品开发和生命周期管理流程是否真正应用到所测试的网络设备进行核实，最后向运营商输出网络设备的安全评估报告。</p><h4>3 3GPP SCAS系列规范介绍</h4><p>为了确保其定义的各个网元的安全性，3GPP开展了安全保障及评估方法研究工作，并制定了通用的以及一系列针对各网元的安全风险分析、测试用例及加固措施的技术报告（TR）和技术规范（TS）。它们之间的关系如下图：</p><p><img src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/Cvmo8l0tKTOAQqFBAAAAoAOittw232.jpg"></p><p style="text-align: center;"><img src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/Cvmo0l0tKTSAEVCyAAA-DX3Ux8E322.png"></p><p style="text-align: center;"><em>图3 3GPP SCAS 文档族关系</em></p><p>其中TR 33.805<sup>[5]</sup>作为一个研究报告讨论了3GPP网络产品安全评估的方法论的问题，介绍了目前最为广泛使用的、对IT产品进行安全评估的CC（Common Criteria），并分析了CC对3GPP网络产品的适用性。3GPP认为：CC中的分级等是对不同评估范畴、不同评估深度和不同评估技术手段的包装，在CC中评估等级从EAL2到EAL4，不同的等级刻画了安全评估的实施程度和安全保障的不同的均衡点；3GPP网络产品的安全评估范畴、评估深度是比较确定的，所以不需要CC那样的评估等级，也不需要CC的证书许可过程。因此，TR 33.805所建议的方法论是借用CC的一些方法论，针对3GPP网络产品专门制定一套安全要求和测试用例--SCAS。SCAS的方法论包括：</p><ul><ul><li><p>建立在网络产品的威胁分析上；</p></li><li><p>对于每一类网络产品采用单一的安全基线和单一的安全评估等级；</p></li><li><p>SCAS的评估分为：安全一致性测试、基本的渗透测试和增强的渗透测试。下面针对这三类中的安全一致性测试和基本渗透测试举些例子，而增强的渗透测试则不在3GPP的范围内进行定义：</p></li></ul></ul><ul><ul><ul><li><p>安全一致性测试，如：管理流量保护，对管理面的流量进行机密性和完整性保护，测试用例包括：所有的网元不接收未经保护的管理面流量。</p></li><li><p>基本渗透测试，如：端口扫描，要求所有非网络业务需求的端口都应关闭，测试方式包括对网络设备的所有外部端口进行扫描。</p></li></ul></ul></ul><p>图4有利于读者了解3GPP方法论的基本思路：</p><p><img src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/Cvmo8l0tKTSABaWkAABliQx95U4177.jpg"></p><p style="text-align: center;"><em>图4 3GPP SCAS 安全认证流程</em></p><p>图4中：</p><ul><ul><li><p>3GPP制定网络设备评估所用的规范；</p></li><li><p>厂商将网络产品提交给评估方；</p></li><li><p>评估方需要由权威机构来认可，以达到评估方的公信力，在GSMA的体系里面，是由ILAC成员基于ISO 10725来对一些具备条件的测试实验室进行资质认证授权的；</p></li><li><p>评估方基于3GPP的规范来进行评估，生成评估报告；</p></li><li><p>基于评估报告，厂商可以自声明自己的产品通过了安全评估，也可以由一些权威认证方来颁发证书，说明厂商的安全具备3GPP所要求的安全性；</p></li><li><p>运营商基于厂商的自声明或者是权威认证，来作为厂商产品是否满足安全需求的依据之一。</p></li></ul></ul><p>TR 33.916<sup>[6]</sup>则基于TR 33.805确定的方法论技术路线，描述具体落实举措，包括：</p><ul><ul><li><p>如何撰写一个网络产品的SCAS文档，分哪些步骤，安全描述、测试用例必须包含哪些内容；</p></li><li><p>评估应该由哪些步骤组成，参与者分别承担什么角色等。</p></li></ul></ul><p>TR 33.805和TR 33.916的关系是，TR 33.805探讨了几种可行的方法论，包括CC和发展3GPP自己的评估方法论，而TR 33.916则明确了使用3GPP自己的方法论，并对方法论的细节进行了阐述。</p><p>TR 33.926<sup>[7]</sup>对网络产品的分类（从安全的角度）、所面临的安全风险、需要保护的关键资产等进行了识别和描述。从安全的视角，网络产品虽然功能不同，但在安全威胁和安全评估上是有部分共性的，这些共性可以形成一些安全评估的最小集。</p><p>从安全评估的视角来看待网络产品，一个比较粗粒度的模型如图5所示：</p><p><img src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/Cvmo0l0tKTWAC13mAAAQ_E_AnzY587.png"></p><p style="text-align: center;"><em>图5 网络设备通用模型</em></p><p>从安全的考量来说，评估对象包括网络设备本身的核心功能以及相关的接口，也包括硬件、操作系统等通用的部分，还包括跟OAM、本地配置、远程管理这些与配置和运营相关的管理部分。</p><p>基于这个模型来观察，网络产品上的关键资产如表3：</p><p>表3 网络产品关键资产示例</p><table width="568"><tbody><tr><td width="568"><p><strong>用户账户数据和安全凭证</strong></p></td></tr><tr><td width="568"><p><strong>日志数据</strong></p></td></tr><tr><td width="568"><p><strong>配置数据</strong>，如网络产品的IP地址、端口、VPN ID、管理对象（如用户组、命令组）</p></td></tr><tr><td width="568"><p><strong>操作系统</strong>，如操作系统上的文件和进程</p></td></tr><tr><td width="568"><p><strong>网络产品上的应用程序</strong></p></td></tr><tr><td width="568"><p><strong>充足的处理能力</strong>，即处理能力未被消耗到极限</p></td></tr><tr><td width="568"><p><strong>硬件</strong>，如主机、单板、供电单元</p></td></tr><tr><td width="568"><p><strong>接口</strong></p></td></tr><tr><td width="568"><p><strong>操作台配置口</strong></p></td></tr><tr><td width="568"><p><strong>OAM</strong><strong>接口</strong></p></td></tr></tbody></table><p>该研究报告还陈述了7类风险，包括1类针对3GPP所定义的接口、6类参考了微软定义的STRIDE模型，分别是：Spoofing（假冒）、Tampering（篡改）、Repudiation（抵赖）、Information Disclosure（信息泄露）、Denial of Service（拒绝服务）、Elevation of Privilege（提升权限）。</p><p>上述通用安全要求的这个最小集就形成一份正式的SCAS规范 --- TS 33.117<sup>[8]</sup> Catalogue of General Security Assurance Requirements。</p><p>与特定产品相关的安全需求，可以在TS 33.117的基础上再用增量来描述，包括针对MME的TS 33.116<sup>[9]</sup> Security Assurance Specification (SCAS) for MME network product class、针对eNB的TS 33.216<sup>[10]</sup> Security Assurance Specification (SCAS) for evolved Node B(eNB) network product class、针对PDN Gateway的TS 33.250 <sup>[11]</sup>Security Assurance Specification (SCAS) for PGW network product class以及针对5G的一系列SCAS。</p><p>在TS 33.117<sup>[8]</sup>中所定义的安全需求包括：技术基线共21项要求，如数据的保护、认证与授权、会话保护、设备的可用性等；操作系统安全、IP安全等5项安全要求；Web交互中的4项安全需求以及网络设备4项安全要求。还有一些安全加固需求和基本渗透测试的要求。上述这些安全需求中，3GPP功能之外的通用安全需求的定义是SCAS中间比较薄弱的。</p><p>TS 33.116和TS 33.216是关于MME和eNB的SCAS，由于3GPP所定义的安全特性，包括机密性、完整性保护以及为了保护机密性和完整性的密钥生成等都会在MME和eNB上实现，MME和eNB的SCAS包含了对这些安全功能实现的安全需求，分别在TS 33.117的基础上各增加了15项、13项安全要求。TS 33.250中定义了一些与PDN GW功能相关的安全需求，如用户面内容的过滤、隔离、TEID的分配等8项安全功能要求和2项加固要求。</p><p>截止目前，在研的、已完成的SCAS相关技术报告和技术规范列表如表4：</p><p>表4 3GPP SCAS文档列表</p><table width="568"><tbody><tr><td width="83"><p><strong>文档</strong></p><p><strong>编号</strong></p></td><td width="245"><p><strong>英文</strong></p><p><strong>名称</strong></p></td><td width="145"><p><strong>中文</strong></p><p><strong>名称</strong></p></td><td width="95"><p><strong>当前</strong></p><p><strong>状态</strong></p></td></tr><tr><td width="568" colspan="4"><p><strong>方法论研究与评估对象研究</strong></p></td></tr><tr><td width="83"><p>TR 33.805</p></td><td width="245"><p>Study on security assurance methodology for 3GPP network products</p></td><td width="145"><p>网络产品安全保障方法研究与选择</p></td><td width="95"><p>开放状态</p></td></tr><tr><td width="83"><p>TR 33.916</p></td><td width="245"><p>Security Assurance Methodology (SCAS) for 3GPP network products</p></td><td width="145"><p>网络产品安全保障方法论</p></td><td width="95"><p>开放状态</p></td></tr><tr><td width="83"><p>TR 33.926</p></td><td width="245"><p>Security Assurance Specification (SCAS) threats and</p><p>critical assets in 3GPP network product classes</p></td><td width="145"><p>3GPP网元产品威胁和重要资产</p></td><td width="95"><p>开放状态</p></td></tr><tr><td width="568" colspan="4"><p><strong>通用安全要求</strong></p></td></tr><tr><td width="83"><p>TS 33.117</p></td><td width="245"><p>Catalogue of general security assurance requirements</p></td><td width="145"><p>网络产品通用安全保障要求及测试用例</p></td><td width="95"><p>已完成</p></td></tr><tr><td width="568" colspan="4"><p><strong>4G</strong><strong>网络产品特定安全要求</strong></p></td></tr><tr><td width="83"><p>TS 33.116</p></td><td width="245"><p>Security Assurance Specification (SCAS) for the MME network product class</p></td><td width="145"><p>MME移动性管理组件安全评估标准</p></td><td width="95"><p>已完成</p></td></tr><tr><td width="83"><p>TS 33.216</p></td><td width="245"><p>Security Assurance Specification (SCAS) for the evolved Node B (eNB) network product class</p></td><td width="145"><p>eNodeB基站安全评估标准</p></td><td width="95"><p>已完成</p></td></tr><tr><td width="83"><p>TS 33.250</p></td><td width="245"><p>Security assurance specification for the PGW network product</p></td><td width="145"><p>PGW公用数据网网关安全评估标准</p></td><td width="95"><p>已完成</p></td></tr><tr><td width="568" colspan="4"><p><strong>5G</strong><strong>网络产品特定安全要求</strong></p></td></tr><tr><td width="83"><p>TS 33.511</p></td><td width="245"><p>5G Security Assurance Specification; NR Node B (gNB) network product class</p></td><td width="145"><p>5G基站gNB安全评估标准</p></td><td width="95"><p>制定中</p></td></tr><tr><td width="83"><p>TS 33.512</p></td><td width="245"><p>5G Security Assurance Specification; Access and Mobility management Function (AMF) network product class</p></td><td width="145"><p>AMF网元（接入鉴权和移动性管理控制功能）安全评估标准</p></td><td width="95"><p>制定中</p></td></tr><tr><td width="83"><p>TS 33.513</p></td><td width="245"><p>5G Security Assurance Specification; User Plane Function (UPF) network product class</p></td><td width="145"><p>UPF网元（用户面功能，执行用户面数据转发等功能）安全评估标准</p></td><td width="95"><p>制定中</p></td></tr><tr><td width="83"><p>TS 33.514</p></td><td width="245"><p>5G Security Assurance Specification for the Unified Data Management (UDM) network product class</p></td><td width="145"><p>UDM网元（统一数据库，存放用户的签约数据等）安全评估标准</p></td><td width="95"><p>制定中</p></td></tr><tr><td width="83"><p>TS 33.515</p></td><td width="245"><p>5G Security Assurance Specification; Session Management Function (SMF) network product class</p></td><td width="145"><p>SMF网元（会话管理网络功能）安全评估标准</p></td><td width="95"><p>制定中</p></td></tr><tr><td width="83"><p>TS 33.516</p></td><td width="245"><p>5G Security Assurance Specification; Authentication Server Function (AUSF) network product class</p></td><td width="145"><p>AUSF网元（鉴权网络功能）安全评估标准</p></td><td width="95"><p>制定中</p></td></tr><tr><td width="83"><p>TS 33.517</p></td><td width="245"><p>5G Security Assurance Specification for the Security Edge Protection Proxy (SEPP) network product class</p></td><td width="145"><p>SEPP网元（安全代理，漫游场景下链接HPLMN和VPLMN）安全评估标准</p></td><td width="95"><p>制定中</p></td></tr><tr><td width="83"><p>TS 33.518</p></td><td width="245"><p>5G Security Assurance Specification for the Network Repository Function (NRF) network product class</p></td><td width="145"><p>NRF网元（服务注册、发现、授权等功能）安全评估标准</p></td><td width="95"><p>制定中</p></td></tr><tr><td width="83"><p>TS 33.519</p></td><td width="245"><p>5G Security Assurance Specification for the Network Exposure Function (NEF) network product class</p></td><td width="145"><p>NEF网元（对外开放网络能力和服务）安全评估标准</p></td><td width="95"><p>制定中</p></td></tr><tr><td width="568" colspan="4"><p><strong>虚拟化网元安全要求研究</strong></p></td></tr><tr><td width="83"><p>TR 33.818</p></td><td width="245"><p>Security Assurance Methodology (SECAM) and Security Assurance Specification (SCAS) for 3GPP virtualized network products</p></td><td width="145"><p>虚拟化网络产品安全保障方法和安全</p><p>保障规范标准</p></td><td width="95"><p>制定中</p></td></tr></tbody></table><p style="text-align: center;"><em>注：开放状态是指该标准已阶段性完成，但仍会根据后续其他研究进展进行相应的内容增补&nbsp;</em></p><h4>结语</h4><p>5G设备安全评估至关重要，通过对5G设备进行安全评估，能有效降低5G网络的潜在风险，是运营商、设备厂商、5G应用方、监管部门关注的焦点。在3GPP SA3的标准化制定过程中，华为、中兴、爱立信、诺基亚上海贝尔、NEC、意大利电信、德国电信等都对SCAS的标准做出了大量的贡献。中国移动也积极参与上述国际标准体系的制定，并主导了3GPP虚拟化网络产品安全保障方法和安全保障规范标准研究。中国移动致力于与全球运营商，设备商以及所有行业合作伙伴一起，建立安全可靠、开放透明、合作共赢的5G全球生态链。</p><p><strong>参考文献</strong></p><p>[1] GSMA FS.13 - Network Equipment Security Assurance Scheme - Overview</p><p>[2] GSMA FS.14 - Network Equipment Security Assurance Scheme – Security Test Laboratory Accreditation Requirements and Process</p><p>[3] GSMA FS.15 - Network Equipment Security Assurance Scheme - Product Development and Lifecycle Accreditation Methodology</p><p>[4] GSMA FS.16 - Network Equipment Security Assurance Scheme -Vendor Development and Product Lifecycle Security Requirements</p><p>[5] 3GPP TR 33.805 Study on security assurance methodology for 3GPP network products</p><p>[6] 3GPP TR 33.916 Security Assurance Methodology (SCAS) for 3GPP network products</p><p>[7] 3GPP TR 33.926 Security Assurance Methodology (SCAS) threats and critical assets in 3GPP network product classes</p><p>[8] 3GPP TS 33.117 Catalogue of General Security Assurance Requirements</p><p>[9] 3GPP TS 33.116 Security Assurance Specification (SCAS) for the MME network product class</p><p>[10] 3GPP TS 33.216 Security Assurance Specification (SCAS) for the evolved Node B (eNB) network product class</p><p>[11] 3GPP TS 33.250 Security assurance specification for the PGW network product</p><p>[12] 3GPP TR 33.818 Security Assurance Methodology (SECAM) and Security Assurance Specification (SCAS) for 3GPP virtualized network products</p><p></p>
+
+                    
+                    <p style="color: #999; font-size: 14px;padding-top: 15px">声明：本文来自禾云安全，版权归作者所有。文章内容仅代表作者独立观点，不代表安全内参立场，转载目的在于传递更多信息。如有侵权，请联系 anquanneican@163.com。</p>
+                </div>
+                                <div class="tags article-tags">
+                                        <a href="https://www.secrss.com/articles?tag=%E9%80%9A%E4%BF%A1" class="tag" target="_blank">通信</a>
+                                        <a href="https://www.secrss.com/articles?tag=%E6%A0%87%E5%87%86" class="tag" target="_blank">标准</a>
+                                        <a href="https://www.secrss.com/articles?tag=5G" class="tag" target="_blank">5G</a>
+                                    </div>
+                                                <section class="article-list">
+                    <div class="article-list-title">相关资讯</div>
+                    <ul class="list" id="article-list">
+                        <li class="list-item">
+        <div class="thumb">
+        <a target="_blank" href="https://www.secrss.com/articles/14161" title="Sim卡及移动端核弹漏洞密集爆发：近期网络战顶级数字武器解析">
+            <img class="lazyload" src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/Cvmo8l2fCoWANsdXAAAxCVprc3A390.jpg!m" data-original="https://s.secrss.com/group1/M00/00/B4/Cvmo8l2fCoWANsdXAAAxCVprc3A390.jpg!m" style="">
+        </a>
+    </div>
+    <div class="info">
+        <h2 class="title">
+            <a target="_blank" href="https://www.secrss.com/articles/14161" title="Sim卡及移动端核弹漏洞密集爆发：近期网络战顶级数字武器解析">
+                Sim卡及移动端核弹漏洞密集爆发：近期网络战顶级数字武器解析
+            </a>
+        </h2>
+        <div class="meta">
+            <div class="meta-left">
+                                    <span class="tag"><a target="_blank" href="https://www.secrss.com/articles?tag=%E6%BC%8F%E6%B4%9E">漏洞</a></span>
+                                <span class="author"><a target="_blank" style="color: #999" href="https://www.secrss.com/articles?author=%E5%A5%87%E5%AE%89%E4%BF%A1%E5%A8%81%E8%83%81%E6%83%85%E6%8A%A5%E4%B8%AD%E5%BF%83">奇安信威胁情报中心</a></span>
+                <span class="time">2019-10-10</span>
+            </div>
+        </div>
+            <p class="intro hidden-xs">
+                <a target="_blank" href="https://www.secrss.com/articles/14161">
+                    2019年下半年以来，伴随着两个核弹级Sim卡漏洞披露，多个Android和iOS漏洞的曝光，关于对应漏洞的移动设备武...
+                </a>
+            </p>
+    </div>
+    </li><li class="list-item">
+        <div class="thumb">
+        <a target="_blank" href="https://www.secrss.com/articles/14088" title="神漏洞：一条短信即可控制SIM卡“接管”任意手机 (WIBattack)">
+            <img class="lazyload" src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/Cvmo0l2bV_eABecBAADrwgqvCJM656.jpg!m" data-original="https://s.secrss.com/group1/M00/00/93/Cvmo0l2bV_eABecBAADrwgqvCJM656.jpg!m" style="">
+        </a>
+    </div>
+    <div class="info">
+        <h2 class="title">
+            <a target="_blank" href="https://www.secrss.com/articles/14088" title="神漏洞：一条短信即可控制SIM卡“接管”任意手机 (WIBattack)">
+                神漏洞：一条短信即可控制SIM卡“接管”任意手机 (WIBattack)
+            </a>
+        </h2>
+        <div class="meta">
+            <div class="meta-left">
+                                    <span class="tag"><a target="_blank" href="https://www.secrss.com/articles?tag=%E9%80%9A%E4%BF%A1">通信</a></span>
+                                <span class="author"><a target="_blank" style="color: #999" href="https://www.secrss.com/articles?author=%E7%BA%A2%E6%95%B0%E4%BD%8D">红数位</a></span>
+                <span class="time">2019-09-27</span>
+            </div>
+        </div>
+            <p class="intro hidden-xs">
+                <a target="_blank" href="https://www.secrss.com/articles/14088">
+                    通过向受害人的电话号码发送恶意短信，攻击者可以滥用WIB sim浏览器中的漏洞来远程控制受害人的手机以执行有...
+                </a>
+            </p>
+    </div>
+    </li><li class="list-item">
+        <div class="thumb">
+        <a target="_blank" href="https://www.secrss.com/articles/14048" title="DARPA重塑计算密集型应用程序的网络堆栈">
+            <img class="lazyload" src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/Cvmo8l2bJU6AZLvQAAD2XAzyUYc071.jpg!m" data-original="https://s.secrss.com/group1/M00/00/AF/Cvmo8l2bJU6AZLvQAAD2XAzyUYc071.jpg!m" style="">
+        </a>
+    </div>
+    <div class="info">
+        <h2 class="title">
+            <a target="_blank" href="https://www.secrss.com/articles/14048" title="DARPA重塑计算密集型应用程序的网络堆栈">
+                DARPA重塑计算密集型应用程序的网络堆栈
+            </a>
+        </h2>
+        <div class="meta">
+            <div class="meta-left">
+                                    <span class="tag"><a target="_blank" href="https://www.secrss.com/articles?tag=%E9%80%9A%E4%BF%A1">通信</a></span>
+                                <span class="author"><a target="_blank" style="color: #999" href="https://www.secrss.com/articles?author=%E4%BB%8E%E5%BF%83%E6%8E%A8%E9%80%81%E7%9A%84%E9%98%B2%E5%8A%A1%E8%8F%8C">从心推送的防务菌</a></span>
+                <span class="time">2019-09-28</span>
+            </div>
+        </div>
+            <p class="intro hidden-xs">
+                <a target="_blank" href="https://www.secrss.com/articles/14048">
+                    FastNIC通过创建全新的联网方法，力求将网络堆栈性能提高100倍。要实现这种显著的性能提升，就需要对整个网络...
+                </a>
+            </p>
+    </div>
+    </li>                    </ul>
+                </section>
+                                <section class="comments">
+                    <h3 class="comments-title text-center">评论（0）</h3>
+                    <div class="comment-box">
+                                                    <div class="text-center comment-login-box">
+                            登录后才能发表评论，请先 <a class="login-btn" href="https://www.secrss.com/login">登录 / 注册</a>
+                            </div>
+                                            </div>
+                                    </section>
+            </article>
+        </div>
+    </section>
+<footer class="footer">
+    <ul class="links">
+                        <li><a href="https://www.secrss.com/info/about">关于我们</a></li>
+                <li><a href="https://www.secrss.com/info/contactus">联系我们</a></li>
+                <li><a href="https://www.secrss.com/info/agreement">用户协议</a></li>
+                        <li><a href="https://www.secrss.com/app">移动客户端</a></li>
+    </ul>
+    <p class="meta"><span>安全内参 © 2019 沪ICP备19008222号-1</span></p>
+</footer>
+<div class="right-tools hidden-xs">
+    <a class="qrcode">
+        <i class="fa fa-qrcode"></i>
+        <div class="qrcode-box">
+            <img src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/wx_qrcode.jpg" width="100">
+            <p class="text-center">微信公众号</p>
+        </div>
+    </a>
+    <a class="gototop" style="display: none;">
+        <i class="fa fa-angle-double-up"></i>
+        <div class="gototop-box">回到顶部</div>
+    </a>
+</div>
+<script src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/hm.js"></script><script src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/app.js"></script>
+<script src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/jquery.lazyload.js"></script>
+<script src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/common.js"></script>
+<script>
+    $("img.lazyload").lazyload();
+</script>
+<script src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/layer.js"></script>
+<script src="./5G设备安全评测标准解读 - 安全内参 _ 网络安全首席知识官_files/jweixin-1.2.0.js"></script>
+<script>
+    $(".article-body a").attr("target", "_blank");
+    /* 评论 */
+    $(".comment-btn").click(function(){
+        var content = $("#comment-content").val();
+        if(content=="") {
+            $("#comment-content").focus();
+            return;
+        }
+
+        var article_id = $(this).attr("data-article_id");
+        $.post('/article_comments', {"content":content, "article_id":article_id, "_token": $("input[name=_token]").val()}, function(re){
+            if(re) {
+                layer.msg(re.msg);
+                $("#comment-content").val("");
+            }
+        });
+    });
+    /*收藏*/
+    $("#star").click(function () {
+        var article_id = $(this).attr("data-article_id");
+        $.post('/article_stars', {"article_id":article_id, "_token": $("input[name=_token]").val()}, function(re){
+            if(re) {
+                layer.msg(re.msg);
+                window.location = location.href;
+            }
+        });
+    });
+
+    /*取消收藏*/
+    $("#unstar").click(function () {
+        var article_id = $(this).attr("data-article_id");
+        $.post('/article_unstars', {"article_id":article_id, "_token": $("input[name=_token]").val()}, function(re){
+            if(re) {
+                layer.msg(re.msg);
+                window.location = location.href;
+            }
+        });
+    });
+
+    /* 微信分享 */
+    wx.config({"debug":false,"beta":false,"jsApiList":["onMenuShareTimeline","onMenuShareAppMessage","onMenuShareQQ","onMenuShareWeibo","onMenuShareQZone"],"appId":"wxbe5173e64266d4e2","nonceStr":"fXTwyiaufS","timestamp":1570919702,"url":"https:\/\/www.secrss.com\/articles\/12244","signature":"799274ebdb0b04adbed813e3afccfe505d2ac217"});
+    wx.ready(function(){
+        var data = {
+            "imgUrl": "https://s.secrss.com/group1/M00/00/66/Cvmo0l0tep6ASCZyAAAnUXerhPE96.jpeg!m",
+            "link": "https://www.secrss.com/articles/12244",
+            "desc": "本文通过介绍GSMA在网络产品安全评估所做的工作以及3GPP制定的针对网络设备的安全保障系列标准，带领大家了解5G网络设备安全保障的标准化工作。",
+            "title": "5G设备安全评测标准解读"
+        };
+        wx.onMenuShareTimeline(data);
+        wx.onMenuShareAppMessage(data);
+        wx.onMenuShareQQ(data);
+        wx.onMenuShareWeibo(data);
+        wx.onMenuShareQZone(data);
+    });
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?75bd0223beb9520a49897a3bfbefa004";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+</body></html>
